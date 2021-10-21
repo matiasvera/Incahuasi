@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%; }
+
+body {
+  font-family: sans-serif; }
+
+@media screen and (max-width: 850px) {
+  .carousel {
+    display: inline-block; }
+  .carousel-inner {
+    display: inline-block;
+    width: 100%;
+    min-height: 600px; }
+  .carousel-item {
+    width: 100%;
+    min-height: 600px; }
+  .carousel_img {
+    width: 100%;
+    min-height: 600px;
+    object-fit: cover; }
+  #logo {
+    z-index: 1;
+    position: absolute;
+    padding: 1rem; }
+    #logo h1 {
+      display: inline-block;
+      font-size: 1rem;
+      padding: 0.5rem; } }
