@@ -4,9 +4,9 @@
         height: 100px;
         display: flex;
         justify-content:space-between;
-        z-index: 1;
+        z-index: 2;
         position: absolute;
-        padding: 0;
+        padding:0;
         }
     .nav-menu{
         flex-direction: column;
@@ -71,5 +71,41 @@
     .carousel-item img{
         height: 100vh;
         object-fit: cover;
+    }
+
+    .header-container{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+    
+        &__h2{
+            text-align: center;
+            color: white;
+            font-weight: bolder;
+            font-size: 2.5rem;
+            padding: 0;
+            margin: 0;
+            margin-bottom: 2rem;
+            width: 100%;
+        }
+    
+        &__img{
+            width: 100%;
+            max-width: 400px;
+            height: 15rem;
+            border-radius: 25%;
+            margin: 0 auto;
+        }
+    
+        &__img img{
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+            border-radius: 10%;
+        }
     }
 }

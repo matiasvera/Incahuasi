@@ -14,6 +14,7 @@ body{
 
 .header{
     max-width: 100%;
+    margin-bottom: 4rem;
 }
 .nav{
     width: 100%;
@@ -54,11 +55,13 @@ body{
 .carousel-control-prev{
     height: 100px;
     margin: auto 0;
+    z-index: 3;
 }
 
 .carousel-control-next{
     height: 100px;
     margin: auto 0;
+    z-index: 3;
 }
 
 .nav-toggle{
@@ -74,4 +77,53 @@ body{
 .carousel-item img{
     height: 100vh;
     object-fit: cover;
+}
+
+.header-container{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+    top: 40%;
+
+    &__h2{
+        color: white;
+        font-weight: bolder;
+        font-size: 4rem;
+        padding: 2rem;
+        margin: 2rem 2rem 0 0;
+        width: 37.5rem;
+    }
+
+    &__img{
+        width: 21rem;
+        height: 27rem;
+        border-radius: 25%;
+    }
+
+    &__img a{
+        text-decoration: none;
+        color: white;
+        font-size: 2rem;
+        font-weight: bolder;
+        position: absolute;
+        padding-left: 6rem;
+        padding-top: 2rem;
+        z-index: 4;
+        text-decoration: black underline;
+        transition: .5s;
+    }
+
+    &__img a:hover{
+        color: white;
+        transform: scale(1.1);
+    }
+
+    &__img img{
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        border-radius: 10%;
+    }
 }
