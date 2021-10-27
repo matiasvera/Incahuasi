@@ -14,7 +14,7 @@ body{
 
 .header{
     max-width: 100%;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 .nav{
     width: 100%;
@@ -126,4 +126,79 @@ body{
         width: 100%;
         border-radius: 10%;
     }
+}
+.main{
+    display: flex;
+
+    &__actividades{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__sumate{
+        justify-content: center;
+        align-items: center;
+        margin: 3rem 0;
+    }
+
+    &__sumate h3{
+        text-align: center;
+        font-size: 3rem;
+        padding: 0 30%;
+    }
+    &__sumate p{
+        text-align: center;
+        padding: 3rem 30%;
+        font-size: 1.5rem;
+    }
+
+    &__actividades-lista{
+        width: 100%;
+        height: 900px;
+        display: flex; 
+    }
+    &__actividades-lista img{
+        object-fit: cover;
+        width: 100%;
+    }
+
+    &__contenedor{
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        max-height: 900px;
+        justify-content: center;
+    }
+
+    &__actividad{
+        background: rgba(0,0,0,0.7);
+        z-index: 3;
+        height: 400px;
+        width: 400px;
+        margin: auto 15px;
+        border-radius: 5%;
+        text-align: center;
+    }
+    &__actividad a{
+        text-decoration: none;
+        color: white;
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: bolder;
+    }
+
+    &__actividad a:hover{
+        color: white;
+    }
+
+    &__actividad img{
+        padding: 10px;
+        height: 350px;
+        border-radius: 10%;
+    }
+
+
 }
