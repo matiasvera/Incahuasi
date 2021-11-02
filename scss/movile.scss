@@ -17,7 +17,7 @@
         left:0;
         top: 100px;
         width: 100%;
-        max-width: 100vw;
+        max-width: 100%;
         padding: 20px 0;
 
         left: 100%;
@@ -141,7 +141,7 @@
             height: 1200px;
             display: flex;
             flex-direction: column;
-            margin-bottom: 100px; 
+            margin-bottom: 10px; 
         }
         &__actividades-lista img{
             object-fit: cover;
@@ -190,21 +190,21 @@
     }
 
     .footer{
-        margin-top: 300px;
+        margin-top: 50px;
 
         &__fondo{
+            width: 100%;
             z-index: 1;
-            width: 800px;
-            
+            display: none;
         }
     
         &__contenedor{
             width: 100%;
-            height: 300px;
-            max-height: 1000px;
-            position: absolute;
+            height: 100%;
+            position: relative;
             z-index: 3;
-            top: 2500px;
+            top: 0;
+            bottom: 0;
         }
     
         &__contenedor1{
@@ -222,7 +222,8 @@
         &__contenedor2{
             display: flex;
             justify-content: center;
-            margin-top: 200px;
+            margin-top: 20px;
+            margin-bottom: 0;
         }
     
         &__contenedor2 p{
@@ -230,6 +231,9 @@
             font-weight: bolder;
             text-align: center;
             font-size: 1rem;
+            background-color: black;
+            margin: 0;
+            width: 100%;
         }
     
         &__redes{
