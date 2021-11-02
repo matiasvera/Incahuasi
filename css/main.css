@@ -131,7 +131,8 @@ body {
   .main__actividades-lista {
     width: 100%;
     height: 900px;
-    display: flex; }
+    display: flex;
+    margin-bottom: 100px; }
   .main__actividades-lista img {
     object-fit: cover;
     width: 100%; }
@@ -163,6 +164,70 @@ body {
     height: 350px;
     border-radius: 10%; }
 
+.footer__fondo {
+  width: 100%;
+  z-index: 1; }
+
+.footer__contenedor {
+  width: 100%;
+  height: 100%;
+  max-height: 500px;
+  position: absolute;
+  z-index: 3;
+  top: 2600px; }
+
+.footer__contenedor1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  height: 50%; }
+
+.footer__titulo {
+  font-size: 2rem; }
+
+.footer__contenedor2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px; }
+
+.footer__contenedor2 p {
+  color: white;
+  font-weight: bolder; }
+
+.footer__redes {
+  display: flex;
+  justify-content: space-around; }
+
+.footer__redes a {
+  margin-top: 10px;
+  text-decoration: none;
+  color: black; }
+
+.footer__redes a i {
+  font-size: 50px; }
+
+.footer__redes a:hover {
+  color: black; }
+
+.footer .icon {
+  font-size: 35px;
+  margin-right: 10px; }
+
+.footer__lista {
+  padding: 0; }
+
+.footer__lista li {
+  list-style: none;
+  margin: 20px 0; }
+
+.footer__nav-link {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: black; }
+
+.footer__nav-link:hover {
+  color: black; }
+
 @media (max-width: 768px) {
   .nav {
     width: 100%;
@@ -181,6 +246,7 @@ body {
     left: 0;
     top: 100px;
     width: 100%;
+    max-width: 100vw;
     padding: 20px 0;
     left: 100%;
     transition: left 0.3s; }
@@ -246,4 +312,115 @@ body {
       object-fit: cover;
       height: 100%;
       width: 100%;
-      border-radius: 10%; } }
+      border-radius: 10%; }
+  .main {
+    display: flex; }
+    .main__actividades {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+    .main__sumate {
+      justify-content: center;
+      align-items: center;
+      margin: 0rem 0; }
+    .main__sumate h3 {
+      text-align: center;
+      font-size: 2rem;
+      padding: 0 5%; }
+    .main__sumate p {
+      text-align: center;
+      padding: 3rem 5%;
+      font-size: 1rem; }
+    .main__actividades-lista {
+      width: 100%;
+      height: 1200px;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 100px; }
+    .main__actividades-lista img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%; }
+    .main__contenedor {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 1200px;
+      max-height: 1200px;
+      justify-content: center; }
+    .main__actividad {
+      background: rgba(0, 0, 0, 0.7);
+      z-index: 3;
+      height: 280px;
+      width: 320px;
+      margin: 15px auto;
+      border-radius: 5%;
+      text-align: center; }
+    .main__actividad a {
+      text-decoration: none;
+      color: white;
+      font-size: 1.5rem;
+      text-align: center;
+      font-weight: bolder; }
+    .main__actividad a:hover {
+      color: white; }
+    .main__actividad img {
+      padding: 10px;
+      height: 230px;
+      border-radius: 10%; }
+  .footer {
+    margin-top: 300px; }
+    .footer__fondo {
+      z-index: 1;
+      width: 800px; }
+    .footer__contenedor {
+      width: 100%;
+      height: 300px;
+      max-height: 1000px;
+      position: absolute;
+      z-index: 3;
+      top: 2500px; }
+    .footer__contenedor1 {
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+      flex-direction: column-reverse;
+      height: 50%; }
+    .footer__titulo {
+      font-size: 1.5rem; }
+    .footer__contenedor2 {
+      display: flex;
+      justify-content: center;
+      margin-top: 200px; }
+    .footer__contenedor2 p {
+      color: white;
+      font-weight: bolder;
+      text-align: center;
+      font-size: 1rem; }
+    .footer__redes {
+      display: flex;
+      justify-content: space-around; }
+    .footer__redes a {
+      margin-top: 5px;
+      text-decoration: none;
+      color: black; }
+    .footer__redes a i {
+      font-size: 45px; }
+    .footer__redes a:hover {
+      color: black; }
+    .footer .icon {
+      font-size: 30px;
+      margin-right: 10px; }
+    .footer__lista {
+      padding: 0; }
+    .footer__lista li {
+      list-style: none;
+      margin: 20px 0; }
+    .footer__nav-link {
+      font-size: 1rem;
+      text-decoration: none;
+      color: black; }
+    .footer__nav-link:hover {
+      color: black; } }
