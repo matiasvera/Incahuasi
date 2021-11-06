@@ -88,7 +88,8 @@ body {
   .header-container__img {
     width: 21rem;
     height: 27rem;
-    border-radius: 25%; }
+    border-radius: 25%;
+    box-shadow: 0px 0px 50px #5a5959; }
   .header-container__img a {
     text-decoration: none;
     color: white;
@@ -177,7 +178,11 @@ body {
     max-height: 500px;
     position: absolute;
     z-index: 3;
-    top: 2600px; }
+    top: 2600px;
+    background-image: url("../img/layered-peaks-haikei.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
   .footer__contenedor1 {
     display: flex;
     width: 100%;
@@ -188,7 +193,7 @@ body {
   .footer__contenedor2 {
     display: flex;
     justify-content: center;
-    margin-top: 100px; }
+    margin-top: 200px; }
   .footer__contenedor2 p {
     color: white;
     font-weight: bolder; }
@@ -372,13 +377,16 @@ body {
       position: relative;
       z-index: 3;
       top: 0;
-      bottom: 0; }
+      bottom: 0;
+      background-image: none; }
     .footer__contenedor1 {
       display: flex;
       width: 100%;
       justify-content: space-around;
       flex-direction: column-reverse;
-      height: 50%; }
+      height: 50%;
+      padding: 0 1rem;
+      text-align: center; }
     .footer__titulo {
       font-size: 1.5rem; }
     .footer__contenedor2 {
