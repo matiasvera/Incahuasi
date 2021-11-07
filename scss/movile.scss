@@ -19,7 +19,6 @@
         width: 100%;
         max-width: 100%;
         padding: 20px 0;
-
         left: 100%;
         transition: left 0.3s;
     }
@@ -205,14 +204,17 @@
             z-index: 3;
             top: 0;
             bottom: 0;
+            background-image: none;
         }
-    
+
         &__contenedor1{
             display: flex;
             width: 100%;
             justify-content: space-around;
             flex-direction: column-reverse;
             height: 50%;
+            padding: 0 1rem;
+            text-align: center;
         }
     
         &__titulo{
